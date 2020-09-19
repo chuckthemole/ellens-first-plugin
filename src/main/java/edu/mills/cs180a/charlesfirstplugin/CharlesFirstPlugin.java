@@ -1,4 +1,4 @@
-package edu.mills.cs180a.ellensfirstplugin;
+package edu.mills.cs180a.charlesfirstplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
