@@ -27,13 +27,13 @@ public class CharlesFirstPlugin extends JavaPlugin {
     if (cmd.getName().equalsIgnoreCase("walkslow")) {
       System.out.println("Command called for walkfast...");
       Player p = (Player) sender;
-      p.setWalkSpeed(1);
+      p.setWalkSpeed(-.9f);
       return true;
     }
     if (cmd.getName().equalsIgnoreCase("walknormal")) {
       System.out.println("Command called for walkfast...");
       Player p = (Player) sender;
-      p.setWalkSpeed(1);
+      p.setWalkSpeed(.2f);
       return true;
     }
 
