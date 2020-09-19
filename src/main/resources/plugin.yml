@@ -1,4 +1,4 @@
-name: charlesFirstPlugin
-main: edu.mills.cs180a.charlesfirstplugin.charlesFirstPlugin
+name: CharlesFirstPlugin
+main: edu.mills.cs180a.charlesfirstplugin.CharlesFirstPlugin
 version: 0.0.1
 api-version: 1.16
