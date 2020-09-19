@@ -1,4 +1,21 @@
 name: CharlesFirstPlugin
-main: edu.cs180a.mills.charlesfirstplugin.CharlesFirstPlugin
+main: edu.mills.cs180a.charlesfirstplugin.CharlesFirstPlugin
 version: 0.0.1
 api-version: 1.16
+author: Chuck
+commands:
+   walkfast:
+      description: Sets player speed to 1.
+      usage: /<command> [player]
+      permission: CharlesFirstPlugin.walkfast
+      permission-message: You don't have <permission>
+   walkslow:
+      description: Sets player speed to -1.
+      usage: /<command> [player]
+      permission: CharlesFirstPlugin.walkslow
+      permission-message: You don't have <permission>
+   walknormal:
+      description: Sets player speed to 0.2.
+      usage: /<command> [player]
+      permission: CharlesFirstPlugin.walknormal
+      permission-message: You don't have <permission>
